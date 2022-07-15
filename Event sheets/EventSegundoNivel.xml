@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventSegundoNivel</name>
+    <events>
+        <event-block sid="322009878315222">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="681262214546091" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="364463282572874" type="Personaje_principal_Marte">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="648987814652781" type="Personaje_principal_Marte">
+                    <param id="0" name="Animation">&quot;Caminando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="469580017462203">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="763599592543288" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="618414752281937" type="Personaje_principal_Marte">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="917649856161358">
+            <conditions>
+                <condition behavior="Platform" id="0" name="Is moving" sid="536248793825267" type="Personaje_principal_Marte" />
+                <condition behavior="Platform" id="2" name="Is on floor" sid="649836404469273" type="Personaje_principal_Marte" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="950989775727168" type="principalter">
+                    <param id="0" name="Animation">&quot;walk&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="929439422300396" type="Personaje_principal_Marte">
+                    <param id="0" name="Animation">&quot;Caminando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="160182754499607">
+            <conditions>
+                <condition id="-25" name="On loader layout complete" sid="827658906778530" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="362871014453336" type="moneda">
+                    <param id="0" name="Animation">&quot;rotar&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="170715287898508">
+            <conditions>
+                <condition id="-25" name="On loader layout complete" sid="362799271543545" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="499081099078202" type="diamante">
+                    <param id="0" name="Animation">&quot;rotar&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

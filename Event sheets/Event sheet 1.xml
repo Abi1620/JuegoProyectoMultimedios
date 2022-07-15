@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="951108680617136">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="892237209640007" type="Mouse">
+                    <param id="0" name="Object">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="330129402556444" type="Sprite5">
+                    <param id="0" name="Scale">0.2</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="716927903517205" type="Sprite5">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="556680758613415">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="593077670411816" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="285801789045726" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="561227454065799">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="495275604401333" type="Mouse">
+                    <param id="0" name="Object">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="500865327590471" type="Sprite5">
+                    <param id="0" name="Opacity">70</param>
+                </action>
+                <action id="9" name="Set scale" sid="627758752571675" type="Sprite5">
+                    <param id="0" name="Scale">0.3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
